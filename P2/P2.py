@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-# Paper 4 Reproduction Script
+# P2 Reproduction Script
 """
 Title: "The Application of Gaussian Mixture Models for the Identification of At-Risk Learners in Massive Open Online Courses"
 Authors: Raghad Alshabandar, Abir Jaafar Hussain, Robert Keight, Andy Laws, Thar Baker
