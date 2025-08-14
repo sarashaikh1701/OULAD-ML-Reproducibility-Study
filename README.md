@@ -4,7 +4,7 @@ Sara Shaikh
 Supervisor: Dr. Emma Howard
 University of Dublin, Trinity College, 2025
 
-A dissertation submitted in partial fulfilment of the requirements for the degree of Master in Computer Science (MCS)
+A dissertation submitted in partial fulfilment of the requirements for the degree of Master of Science in Computer Science (Data Science)
 
 This repository contains the complete code and artefacts for reproducing results from ten published machine learning studies based on the Open University Learning Analytics Dataset (OULAD). The work forms part of a structured reproducibility audit conducted as the author’s MSc dissertation, covering both Experiment Reproducibility (R1) and Data Reproducibility (R2).
 
