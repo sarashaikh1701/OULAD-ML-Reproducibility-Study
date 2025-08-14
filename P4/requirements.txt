@@ -1,0 +1,7 @@
+python==3.7.1  
+tensorflow==1.13.1  
+keras==2.2.4  
+scikit-learn==0.22  
+numpy==1.17.4  
+pandas==0.24.2  
+jupyter==1.0.0
