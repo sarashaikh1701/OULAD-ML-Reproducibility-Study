@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-#Paper 1 Reproduction Script
+#P8 Reproduction Script
 """
 Title: "A Machine Learning Based Approach for Student Performance Evaluation in Educational Data Mining"
 Authors: Muhammad Sammy Ahmad, Ahmed H. Asad, Ammar Mohammed
