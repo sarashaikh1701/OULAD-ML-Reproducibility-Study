@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-# Paper 6 Reproduction Script
+# P1 Reproduction Script
 """
 Title: "Ouroboros: early identification of at-risk students without models based on legacy data"
 Authors: Martin Hlosta, Zdenek Zdrahal, Jaroslav Zendulka (LAK 2017)
