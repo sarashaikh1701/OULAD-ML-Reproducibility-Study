@@ -1,7 +1,7 @@
 # OULAD-ML-Reproducibility-Study
 Reproducing Machine Learning Models on OULAD: A Multi-Paper Study
 Sara Shaikh
-Supervisor: [Your Supervisor’s Name]
+Supervisor: Dr. Emma Howard
 University of Dublin, Trinity College, 2025
 
 A dissertation submitted in partial fulfilment of the requirements for the degree of Master in Computer Science (MCS)
