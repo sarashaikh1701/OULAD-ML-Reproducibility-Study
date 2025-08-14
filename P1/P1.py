@@ -3,32 +3,27 @@
 
 # In[ ]:
 
-
 # P1 Reproduction Script
 """
 Title: "Ouroboros: early identification of at-risk students without models based on legacy data"
-Authors: Martin Hlosta, Zdenek Zdrahal, Jaroslav Zendulka (LAK 2017)
-
-Environment (pinned):
-    Python 3.7.x
-    scikit-learn==0.24.2
-    xgboost==1.3.3
-    pandas==1.2.3
-    numpy==1.19.5
-    imbalanced-learn==0.8.0
-    matplotlib==3.3.4
-    seaborn==0.11.1
-    joblib
+Authors: Martin Hlosta, Zdenek Zdrahal, Jaroslav Zendulka
+Source: The Open University, UK
 
 Purpose:
-End-to-end entry-point script for A1 submission prediction with self-learning (Ouroboros):
+This script reproduces the methodology and results of the above paper using the
+Open University Learning Analytics Dataset (OULAD). It executes the complete pipeline described in the paper:
     - Data loading and filtering
-    - Feature engineering
-    - Windowed training/evaluation (PR-AUC)
-    - Top-K precision/recall
-    - XGBoost feature importances
+    - Feature engineering from current course data only
+    - Windowed training and evaluation (day-by-day leading up to A1 cut-off) using:
+        * Logistic Regression
+        * Support Vector Machine
+        * Random Forest
+        * Naive Bayes
+        * XGBoost
+    - PR-AUC calculation as the primary metric
+    - Top-K precision/recall analysis
+    - XGBoost feature importance extraction
 """
-
 
 # In[ ]:
 

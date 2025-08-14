@@ -3,6 +3,28 @@
 
 # In[ ]:
 
+# P3 Reproduction Script
+"""
+Title: "Student Success Prediction and the Trade-Off between Big Data and Data Minimization"
+Authors: Hendrik Heuer, Andreas Breiter
+Source: Institute for Information Management Bremen (ifib) and Centre for Media, Communication and Information Research (ZeMKI), University of Bremen, Germany
+
+Purpose:
+This script reproduces the methodology and results of the above paper using the
+Open University Learning Analytics Dataset (OULAD). It executes the complete pipeline described in the paper:
+    - Data loading and preprocessing (removal of withdrawn students, exclusion of banked assessments, binary label encoding)
+    - Construction of daily activity vectors (count, binary, normalized) for a 245-day course window
+    - Demographic feature extraction with one-hot encoding of categorical attributes
+    - Creation of multiple feature set combinations
+    - Model training and 5-fold stratified cross-validation with:
+        * Decision Tree
+        * Random Forest
+        * Logistic Regression
+        * Support Vector Machine (RBF kernel)
+    - Reporting of Accuracy, Precision, Recall, and F1-score
+    - K-Means clustering (k=9) on binary activity vectors with visualization of mean interaction curves
+"""
+
 
 # Step 1: Imports and data loading
 import numpy as np
