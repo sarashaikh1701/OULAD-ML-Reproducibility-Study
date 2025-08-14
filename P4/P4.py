@@ -1,5 +1,27 @@
 #!/usr/bin/env python
 # coding: utf-8
+# P4 Reproduction Script
+"""
+Title: "Predicting At-Risk Students Using Clickstream Data in the Virtual Learning Environment"
+Authors: Naif Radi Aljohani, Ayman Fayoumi, Saeed-Ul Hassan
+Source: Sustainability, 2019
+
+Purpose:
+This script reproduces the methodology and results of the above paper using the
+Open University Learning Analytics Dataset (OULAD). It executes the complete pipeline described in the paper:
+    - Data loading and preprocessing from studentInfo, studentVle, vle, and courses tables
+    - Filtering out Withdrawn students and merging Distinction into Pass
+    - Week-by-week aggregation of 20 VLE activity types into fixed-length (38-week) sequences
+    - Padding sequences and applying masking for LSTM input
+    - Training a deep LSTM model with three stacked layers (100–200–300 units) at multiple cut-offs:
+        * Week 5
+        * Week 10
+        * Week 20
+        * Week 38
+    - Saving trained models, predictions, and training histories
+    - Evaluating models using accuracy, precision, and recall
+    - Running baseline models (Logistic Regression, SVM, ANN) on aggregated features for comparison
+"""
 
 # In[ ]:
 
